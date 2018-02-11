@@ -15,8 +15,8 @@ class Managers{
 	private let provider = MoyaProvider<PruebaEndpoint>()
 	private let parse = Parsers()
 	
-	func getProducts(name:String, completion: @escaping (_ success:Bool, _ object: Any?) -> Void){
-		provider.request(.getProducts(productName: name)) {
+	func getProducts(completion: @escaping (_ success:Bool, _ object: Any?) -> Void){
+		provider.request(.getProducts) {
 			switch $0{
 			case .success(let response):
 				guard let mapString = try? response.mapString() else{ return completion(false, nil)}

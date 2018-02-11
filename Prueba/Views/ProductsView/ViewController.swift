@@ -15,13 +15,14 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		showProduct(name: productName)
+        
+		showProduct()
 		
 	}
 	
-	func showProduct(name:String){
-		controller.getProducts(name: "computadora") { success, object in
+    
+	func showProduct(){
+		controller.getProducts() { success, object in
 			switch success{
 			case true:
 				print(object ?? "")

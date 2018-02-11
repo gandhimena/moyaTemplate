@@ -12,8 +12,8 @@ class ProductController{
 	
 	let manager = Managers()
 	
-	func getProducts(name:String, completion: @escaping (_ success: Bool,_ object: Any?) -> Void ){
-		manager.getProducts(name: name) {success, object in
+	func getProducts(completion: @escaping (_ success: Bool,_ object: Any?) -> Void ){
+		manager.getProducts() {success, object in
 			switch success{
 			case true:
 				completion(true, object)

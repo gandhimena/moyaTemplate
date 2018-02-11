@@ -21,7 +21,7 @@ private extension String{
 
 enum PruebaEndpoint{
 	case defaults
-	case getProducts(productName:String)
+	case getProducts
 }
 
 extension PruebaEndpoint: TargetType{
@@ -38,8 +38,9 @@ extension PruebaEndpoint: TargetType{
 	
 	var path: String{
 		switch self {
-		case .getProducts(let name):
-			return "/tienda?s=\(name)&d3106047a194921c01969dfdec083925=json"
+		case .getProducts:
+            return "/fakeApi/db"
+			//return "/tienda?s=\(name)&d3106047a194921c01969dfdec083925=json"
 		case .defaults:
 			return ""
 		}

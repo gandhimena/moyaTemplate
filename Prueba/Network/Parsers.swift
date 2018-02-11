@@ -18,17 +18,12 @@ class Parsers {
 		guard let dataJSON = serializeResponse(mapString: mapString) else {
 			return completion(false, ErrorNetworkType.badSerialized(desc: "badSerialized"))}
 		print(dataJSON)
-//		guard let successResponse = dataJSON[RequestKeys.success] as? Bool else {
-//			return completion(false, ErrorNetworkType.badRequest(desc: "badRequest"))}
-//		guard let dataResponse = dataJSON[RequestKeys.data] as? NSDictionary else {
-//			return completion(false,ErrorNetworkType.badCasting(desc: "badCasting"))}
-//
-//		switch successResponse{
-//		case true:
-//			completion(true, dataResponse)
-//		case false:
-//			completion(false, ErrorNetworkType.badRequest(desc: "BadRequest"))
-//		}
+        guard let dataResponse = dataJSON as? NSDictionary else {
+            return completion(false,ErrorNetworkType.badCasting(desc: "badCasting"))}
+        
+        let user = User.from(dataResponse)
+        completion(true, user)
+        
 	}
 	
 }

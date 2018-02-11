@@ -9,7 +9,7 @@
 import Foundation
 
 struct ServerAPI {
-	static let baseURL = "https://www.muhost.com.mx"
+	static let baseURL = "https://my-json-server.typicode.com/gandhimena"
 }
 
 

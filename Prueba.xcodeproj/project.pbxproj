@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		572CFD194B2C636E6308184D /* Pods_Prueba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5D6097672D810EFCA0D003 /* Pods_Prueba.framework */; };
-		981ADD6520106AF8008AD5F8 /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ADD6420106AF8008AD5F8 /* Records.swift */; };
-		981ADD6720106EC8008AD5F8 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ADD6620106EC8008AD5F8 /* Contents.swift */; };
-		981ADD6920106FA0008AD5F8 /* Attributess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ADD6820106FA0008AD5F8 /* Attributess.swift */; };
-		981ADD6B20107098008AD5F8 /* MainContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ADD6A20107098008AD5F8 /* MainContents.swift */; };
-		981ADD6D20107214008AD5F8 /* AllContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ADD6C20107214008AD5F8 /* AllContent.swift */; };
 		981ADD6F201072D2008AD5F8 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ADD6E201072D2008AD5F8 /* ProductController.swift */; };
 		98B3FC502010419C009C8587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3FC4F2010419C009C8587 /* AppDelegate.swift */; };
 		98B3FC522010419C009C8587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3FC512010419C009C8587 /* ViewController.swift */; };
@@ -24,16 +19,15 @@
 		98B3FC6720104307009C8587 /* Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3FC6620104307009C8587 /* Parsers.swift */; };
 		98B3FC6A201043C0009C8587 /* String+Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3FC69201043C0009C8587 /* String+Prueba.swift */; };
 		98B3FC6D20104459009C8587 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3FC6C20104459009C8587 /* Constants.swift */; };
+		FDB005B12030C4F700193340 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB005B02030C4F700193340 /* User.swift */; };
+		FDB005B32030C54100193340 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB005B22030C54100193340 /* Posts.swift */; };
+		FDB005B52030C5DD00193340 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB005B42030C5DD00193340 /* Comments.swift */; };
+		FDB005B72030C68000193340 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB005B62030C68000193340 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F5D6097672D810EFCA0D003 /* Pods_Prueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D824437141E71A1346B524 /* Pods-Prueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prueba/Pods-Prueba.release.xcconfig"; sourceTree = "<group>"; };
-		981ADD6420106AF8008AD5F8 /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
-		981ADD6620106EC8008AD5F8 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
-		981ADD6820106FA0008AD5F8 /* Attributess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributess.swift; sourceTree = "<group>"; };
-		981ADD6A20107098008AD5F8 /* MainContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContents.swift; sourceTree = "<group>"; };
-		981ADD6C20107214008AD5F8 /* AllContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContent.swift; sourceTree = "<group>"; };
 		981ADD6E201072D2008AD5F8 /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
 		98B3FC4C2010419C009C8587 /* Prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B3FC4F2010419C009C8587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +42,10 @@
 		98B3FC69201043C0009C8587 /* String+Prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Prueba.swift"; sourceTree = "<group>"; };
 		98B3FC6C20104459009C8587 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB96FAAAF3A80BDBE36D37B4 /* Pods-Prueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prueba/Pods-Prueba.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB005B02030C4F700193340 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FDB005B22030C54100193340 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		FDB005B42030C5DD00193340 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		FDB005B62030C68000193340 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +80,10 @@
 		981ADD5E20105DA2008AD5F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				981ADD6C20107214008AD5F8 /* AllContent.swift */,
-				981ADD6A20107098008AD5F8 /* MainContents.swift */,
-				981ADD6620106EC8008AD5F8 /* Contents.swift */,
-				981ADD6420106AF8008AD5F8 /* Records.swift */,
-				981ADD6820106FA0008AD5F8 /* Attributess.swift */,
+				FDB005B02030C4F700193340 /* User.swift */,
+				FDB005B62030C68000193340 /* Profile.swift */,
+				FDB005B22030C54100193340 /* Posts.swift */,
+				FDB005B42030C5DD00193340 /* Comments.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -308,19 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981ADD6B20107098008AD5F8 /* MainContents.swift in Sources */,
 				98B3FC63201042DC009C8587 /* PruebaEndpoint.swift in Sources */,
-				981ADD6720106EC8008AD5F8 /* Contents.swift in Sources */,
-				981ADD6920106FA0008AD5F8 /* Attributess.swift in Sources */,
+				FDB005B72030C68000193340 /* Profile.swift in Sources */,
 				98B3FC522010419C009C8587 /* ViewController.swift in Sources */,
 				98B3FC502010419C009C8587 /* AppDelegate.swift in Sources */,
+				FDB005B12030C4F700193340 /* User.swift in Sources */,
+				FDB005B52030C5DD00193340 /* Comments.swift in Sources */,
 				981ADD6F201072D2008AD5F8 /* ProductController.swift in Sources */,
-				981ADD6520106AF8008AD5F8 /* Records.swift in Sources */,
-				981ADD6D20107214008AD5F8 /* AllContent.swift in Sources */,
 				98B3FC6720104307009C8587 /* Parsers.swift in Sources */,
 				98B3FC6D20104459009C8587 /* Constants.swift in Sources */,
 				98B3FC65201042EC009C8587 /* Managers.swift in Sources */,
 				98B3FC6A201043C0009C8587 /* String+Prueba.swift in Sources */,
+				FDB005B32030C54100193340 /* Posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,10 +455,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NUT7SFZWGF;
+				DEVELOPMENT_TEAM = 9HX3HJ3V7P;
 				INFOPLIST_FILE = Prueba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = trenx.Prueba;
+				PRODUCT_BUNDLE_IDENTIFIER = gandhi.Prueba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,10 +471,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NUT7SFZWGF;
+				DEVELOPMENT_TEAM = 9HX3HJ3V7P;
 				INFOPLIST_FILE = Prueba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = trenx.Prueba;
+				PRODUCT_BUNDLE_IDENTIFIER = gandhi.Prueba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
